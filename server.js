@@ -1,7 +1,5 @@
 const express = require('express');
 const path = require('path');
-const { createCanvas } = require('canvas');
-const { createNoise2D } = require('simplex-noise');
 
 const app = express();
 const PORT = 3000;
